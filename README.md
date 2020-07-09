@@ -16,6 +16,18 @@ Research about segmentation's application
 
 - Installation & Tutorials <update soon>
 
+    I. Run in terminal
+        ```
+        pip install -r requirements
+        ```
+
+    II. Download yolov3.weights at ```link```
+
+    III. Run 
+        ```
+        python main.py
+        ```
+
 - Our members:
     + Le Trong Hoang - BI9-241
     + Nguyen The Trung - BI9-224
