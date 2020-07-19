@@ -3,7 +3,7 @@ import numpy as np
 import time
 
 #Load YOLO
-net = cv2.dnn.readNet("yolov3.weights","yolov3.cfg")
+net = cv2.dnn.readNet("Object_Detection/models/yolov3.weights","Object_Detection/models/yolov3.cfg")
 
 classes = []
 with open("models/classes.data","r") as f:

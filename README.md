@@ -21,12 +21,20 @@ Research about segmentation's application
         pip install -r requirements
         ```
 
-    II. Download yolov3.weights at ```link```
+    II. Download yolov3.weights [here](https://drive.google.com/file/d/1ppad5GbY5mX8axvnTEKFgMmvxqtQvn3k/view?usp=sharing) and move it into ```/Object_Detection/models/```
+    
+    or 
+    ```
+    cd Object_Detection/models
+    wget https://pjreddie.com/media/files/yolov3.weights
+    ```
 
-    III. Run 
+    III. Run
         ```
         python main.py
         ```
+    
+    Press "Q" to quit
 
 - Our members:
     + Le Trong Hoang - BI9-241
